@@ -1,6 +1,6 @@
 # Spectra-Simulation
 This is a simple program that has a purpose to simulate simple spectrum by giving a list of vertical excitation energies and oscillation strengths.
-After execution of the program, a spectrum can be obtained by plotting E x sigma(E)
+After execution of the program, a spectrum can be obtained by plotting E x σ(E)
 
 To run the program, a spectra_simulation.py file is the main code file.
 All the files needed, are prepared and given as an example (inp.py, energies_forces.py, gamma.dat, delta.dat), only the values should be modified.
