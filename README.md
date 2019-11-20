@@ -1,5 +1,5 @@
 # Spectra-Simulation
-This is a simple program that has a purpose to simulate simple specyrum by giving a list of vertical excitation energies and oscillation strengths.
+This is a simple program that has a purpose to simulate simple spectrum by giving a list of vertical excitation energies and oscillation strengths.
 After execution of the program, a spectrum can be obtained by plotting E x sigma(E)
 
 To run the program, a spectra_simulation.py file is the main code file.
