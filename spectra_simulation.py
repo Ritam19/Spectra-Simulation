@@ -23,7 +23,7 @@
 #    																								 #
 # Parameters	Allowed values						Unit		Default values												 #
 # Gamma	        >0 – use this value as Γi for all bands																		 #
-#               0 – read Γifrom a file named gamma.dat 			 eV		    0.4													 #
+#               0 – read Γifrom a file named gamma.dat 			 eV		    0.3												 #
 # delta		≥0 – use this value as δi for all bands																		 #
 #		0 – read δ from a file named delta.dat			 eV		    0.0													 #
 # n		>0 – refractive index n				          -		    1.0													 #
@@ -93,7 +93,7 @@ from inp import *
 
 Ei=np.genfromtxt('energies_forces.dat',skip_header=1,unpack=True,usecols=range(1))
 fi=np.genfromtxt('energies_forces.dat',skip_header=1,unpack=True,usecols=range(1))
-gamma_default= 0.4*np.ones(len(Ei))
+gamma_default= 0.3*np.ones(len(Ei))
 delta_default=0.0*np.ones(len(Ei))
 nref_default=1.0
 Emin_default=2.0
