@@ -251,4 +251,4 @@ results=np.savetxt('Output.dat', Output, fmt='%.5f', delimiter= "\t\t", header=h
 #plt.plot(E,sig)
 #plt.xlabel('E')
 #plt.ylabel('σ(E)')
-#§plt.show()
+#plt.show()
