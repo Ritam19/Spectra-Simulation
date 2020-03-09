@@ -23,7 +23,7 @@
 #    																								 #
 # Parameters	Allowed values						Unit		Default values												 #
 # Gamma	        >0 – use this value as Γi for all bands																		 #
-#               0 – read Γifrom a file named gamma.dat 			 eV		    0.3												 #
+#               0 – read Γi from a file named gamma.dat 	         eV		    0.3												 #
 # delta		≥0 – use this value as δi for all bands																		 #
 #		0 – read δ from a file named delta.dat			 eV		    0.0													 #
 # n		>0 – refractive index n				          -		    1.0													 #
