@@ -4,7 +4,7 @@
 #																								 #
 # To run the program, the following files are needed:																		 #
 #	1. spectra_simulation.py : file containing the code																	 #
-#	2. inp.dat : file containing the parameters and their values																 #
+#	2. inp.py : file containing the parameters and their values																 #
 #	3. energies_forces.dat : file containing the excitation energies and oscillation strengths												 #
 #          	                (to be modified by the user)																	 #
 #	4. gamma.dat : file containing values of gamma, which will be used in some cases													 #
@@ -34,7 +34,7 @@
 # Where the parameters are explained above.																			 #
 #																								 #
 # Two conditions are applied for all parameter:																			 #
-#	If the parameter exists in the inp.dat file, its value is used for all the excitation energies.												 #
+#	If the parameter exists in the inp.py file, its value is used for all the excitation energies.												 #
 #	If the parameter does not exist (deleted) in the file, the default value is used.													 #
 #																								 #
 #																								 #
@@ -144,7 +144,7 @@ def calc():
         Emin_c = 0
         Emax_c = 0
         step_c = 0
-        infile = open('inp.dat', 'r')
+        infile = open('inp.py', 'r')
         for line in infile:
                 variable, value = line.split('=')
                 variable = variable.strip()  
